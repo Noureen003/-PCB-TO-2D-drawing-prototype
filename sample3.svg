@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="460" viewBox="0 0 430 460" font-family="Arial, sans-serif">
+<rect x="0" y="0" width="430" height="460" fill="white"/>
+<line x1="95" y1="150" x2="95" y2="230" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="95" y1="230" x2="215" y2="230" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="215" y1="230" x2="95" y2="70" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="101" y="144" font-size="9" fill="#CC0000">3V3</text>
+<line x1="95" y1="150" x2="95" y2="70" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="95" y1="70" x2="215" y2="70" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="215" y1="70" x2="335" y2="70" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="335" y1="70" x2="95" y2="230" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="95" y1="230" x2="215" y2="230" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="101" y="144" font-size="9" fill="#CC0000">GND</text>
+<line x1="95" y1="230" x2="95" y2="390" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="95" y1="390" x2="215" y2="230" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="215" y1="230" x2="215" y2="150" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="101" y="224" font-size="9" fill="#CC0000">SDA</text>
+<line x1="95" y1="230" x2="215" y2="390" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="215" y1="390" x2="215" y2="230" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="215" y1="230" x2="215" y2="150" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="101" y="224" font-size="9" fill="#CC0000">SCL</text>
+<line x1="95" y1="230" x2="335" y2="390" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<line x1="335" y1="390" x2="95" y2="310" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="101" y="224" font-size="9" fill="#CC0000">STATUS_LED</text>
+<line x1="215" y1="230" x2="215" y2="310" stroke="#CC0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="221" y="224" font-size="9" fill="#CC0000">ALERT_LED</text>
+<rect x="50" y="210" width="90" height="40" fill="#B6D7A8" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="95.0" y="227" font-size="12" font-weight="bold" text-anchor="middle">U1</text>
+<text x="95.0" y="241" font-size="10" text-anchor="middle">ESP32</text>
+<rect x="170" y="210" width="90" height="40" fill="#B6D7A8" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="215.0" y="227" font-size="12" font-weight="bold" text-anchor="middle">U2</text>
+<text x="215.0" y="241" font-size="10" text-anchor="middle">MAX30102</text>
+<rect x="50" y="370" width="90" height="40" fill="#FFD966" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="95.0" y="387" font-size="12" font-weight="bold" text-anchor="middle">R1</text>
+<text x="95.0" y="401" font-size="10" text-anchor="middle">4.7k</text>
+<rect x="170" y="370" width="90" height="40" fill="#FFD966" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="215.0" y="387" font-size="12" font-weight="bold" text-anchor="middle">R2</text>
+<text x="215.0" y="401" font-size="10" text-anchor="middle">4.7k</text>
+<rect x="290" y="370" width="90" height="40" fill="#FFD966" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="335.0" y="387" font-size="12" font-weight="bold" text-anchor="middle">R3</text>
+<text x="335.0" y="401" font-size="10" text-anchor="middle">10k</text>
+<rect x="50" y="50" width="90" height="40" fill="#9FC5E8" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="95.0" y="67" font-size="12" font-weight="bold" text-anchor="middle">C1</text>
+<text x="95.0" y="81" font-size="10" text-anchor="middle">10uF</text>
+<rect x="170" y="50" width="90" height="40" fill="#9FC5E8" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="215.0" y="67" font-size="12" font-weight="bold" text-anchor="middle">C2</text>
+<text x="215.0" y="81" font-size="10" text-anchor="middle">1uF</text>
+<rect x="290" y="50" width="90" height="40" fill="#9FC5E8" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="335.0" y="67" font-size="12" font-weight="bold" text-anchor="middle">C3</text>
+<text x="335.0" y="81" font-size="10" text-anchor="middle">100nF</text>
+<rect x="50" y="290" width="90" height="40" fill="#EA9999" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="95.0" y="307" font-size="12" font-weight="bold" text-anchor="middle">D1</text>
+<text x="95.0" y="321" font-size="10" text-anchor="middle">GREEN</text>
+<rect x="170" y="290" width="90" height="40" fill="#EA9999" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="215.0" y="307" font-size="12" font-weight="bold" text-anchor="middle">D2</text>
+<text x="215.0" y="321" font-size="10" text-anchor="middle">RED</text>
+<rect x="50" y="130" width="90" height="40" fill="#D5A6BD" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="95.0" y="147" font-size="12" font-weight="bold" text-anchor="middle">J1</text>
+<text x="95.0" y="161" font-size="10" text-anchor="middle">USB_PWR</text>
+<rect x="170" y="130" width="90" height="40" fill="#D5A6BD" stroke="black" stroke-width="1.5" rx="4"/>
+<text x="215.0" y="147" font-size="12" font-weight="bold" text-anchor="middle">J2</text>
+<text x="215.0" y="161" font-size="10" text-anchor="middle">I2C_HEADER</text>
+</svg>
