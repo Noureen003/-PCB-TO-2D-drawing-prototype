@@ -46,5 +46,5 @@ The `samples/` folder contains three example PCB designs:
 * `samples/` – sample JSON input files
 * `output/` – generated SVG drawings
 
-The project uses **Option B (JSON/Netlist → 2D Drawing)** instead of image-based schematic detection. This keeps the implementation simple, reliable, and easy to test.
+The project uses JSON/Netlist → 2D Drawing instead of image-based schematic detection. This keeps the implementation simple, reliable, and easy to test.
 
