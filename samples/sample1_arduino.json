@@ -1,0 +1,17 @@
+{
+  "components": [
+    {"id": "U1", "type": "ic", "value": "ATMEGA328P"},
+    {"id": "R1", "type": "resistor", "value": "10k"},
+    {"id": "R2", "type": "resistor", "value": "330"},
+    {"id": "C1", "type": "capacitor", "value": "22pF"},
+    {"id": "C2", "type": "capacitor", "value": "22pF"},
+    {"id": "D1", "type": "led", "value": "RED"},
+    {"id": "J1", "type": "connector", "value": "PWR_IN"}
+  ],
+  "nets": [
+    {"name": "VCC", "connects": ["J1", "U1", "R1"]},
+    {"name": "GND", "connects": ["J1", "C1", "C2", "U1"]},
+    {"name": "RESET", "connects": ["R1", "U1"]},
+    {"name": "LED_OUT", "connects": ["U1", "R2", "D1"]}
+  ]
+}

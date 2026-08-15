@@ -1,0 +1,20 @@
+{
+  "components": [
+    {"id": "U1", "type": "ic", "value": "L298N"},
+    {"id": "C1", "type": "capacitor", "value": "100uF"},
+    {"id": "C2", "type": "capacitor", "value": "100nF"},
+    {"id": "R1", "type": "resistor", "value": "1k"},
+    {"id": "R2", "type": "resistor", "value": "1k"},
+    {"id": "J1", "type": "connector", "value": "MOTOR_A"},
+    {"id": "J2", "type": "connector", "value": "MOTOR_B"},
+    {"id": "J3", "type": "connector", "value": "PWR_12V"}
+  ],
+  "nets": [
+    {"name": "12V", "connects": ["J3", "U1", "C1"]},
+    {"name": "GND", "connects": ["J3", "C1", "C2", "U1"]},
+    {"name": "IN1", "connects": ["R1", "U1"]},
+    {"name": "IN2", "connects": ["R2", "U1"]},
+    {"name": "OUT_A", "connects": ["U1", "J1"]},
+    {"name": "OUT_B", "connects": ["U1", "J2"]}
+  ]
+}
