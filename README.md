@@ -48,8 +48,3 @@ The `samples/` folder contains three example PCB designs:
 
 The project uses **Option B (JSON/Netlist → 2D Drawing)** instead of image-based schematic detection. This keeps the implementation simple, reliable, and easy to test.
 
-### Limitations
-
-The component placement is currently grid-based, so it is not optimized to reduce wire crossings. The connections are also simple straight dashed lines rather than real PCB-style traces.
-
-It does not currently support image input, PCB routing, board outlines, or KiCad files.
